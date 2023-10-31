@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pa Nhia Thao">
+    <meta name="description" content="Why am I taking this course?">
+    <title>Explore Futher</title>
+    <link rel="icon" href="favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+    <h1>Explore</h1>
+    <header>
+        <nav aria-labelledby="primary-navigation">
+            <h2 id="primary-navigation">Navigation Bar</h2>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="goals.html" >Goals</a>
+                </li>
+                <li>
+                    <a href="learn-more.html">Learn More</a>
+                </li>
+            </ul>
+        </nav>  
+    </header>
+    <main>
+        <article>
+            <h2>Three Tags</h2>
+            <p>There are three tags I would like to learn more about. These three tags are table, form, div tags. </p>
+            <figure>
+                <img src="img/codergirl2.jpg" alt="girl studying" width="512" height="512" loading="lazy">
+                <figcaption>Girl studying</figcaption>
+            </figure>
+            <figure>
+                <img src="img/3.png" alt="outliner" title="outliner" width="600" height="155" loading="lazy" >
+                <figcaption>My html outlining</figcaption>
+            </figure>
+            <dl>
+                <dt><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" target="_blank">&lt;tables &gt;</a></dt>
+                <dd>HTML element represents tabular data that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
+                </dd>
+        
+                <dt><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" target="_blank">&lt;form&gt;</a></dt>
+                <dd>HTML element represents a document section containing interactive controls for submitting information.</dd>
+        
+                <dt><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank">&lt;div&gt;</a></dt>
+                <dd>HTML element used to group content so it can be easily styled.</dd>
+            </dl>
+        </article>
+        <article>
+            <h2>Contact Me:</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset class="contact">
+                    <legend>Personal Info</legend>
+                        <p >
+                            <label for="firstName">First Name:</label>
+                            <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="LastName">Last Name:</label>
+                            <input type="text" name="LastName" id="LastName" placeholder="Doe" autocomplete="on" required >
+                        </p>
+                        <p>
+                            <label for="email">Last Name:</label>
+                            <input type="email" name="email" id="email" placeholder="Email" autocomplete="on" required >
+                        </p>
+                        <p>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="1-800-333-3333" autocomplete="on" pattern="[0-1]{1}[0-9]{3}[0-9]{3}[0-9]{4}" >
+                        </p>
+                        
+                            <h3>How to contact you back:</h3>
+                            <input type="radio" name="emailButton" id="emailButton" value="emailButton">
+                            <label for="emailButton">email</label>
+                            <input type="radio" name="phone" id="phone" value="phone">
+                            <label for="phone">phone</label>
+                            <input type="radio" name="text" id="text" value="text">
+                            <label for="text">text</label>
+                        
+                        <p>
+                            <label>Your Message:</label>
+                            <br>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here" required>
+                            </textarea>
+                        </p>
+                        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                    </fieldset>
+                </form>            
+        </article>    
+        
+    </main>
+    <footer> 
+        <p>&lt;&lt;&lt; <a href="https://github.com/CIT85">CIT85</a>  &gt;&gt;&gt;</p>
+        <a href="#">Back to Top</a>
+        <br>
+        <p>Pa Nhia Thao &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
