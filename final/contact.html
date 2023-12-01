@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Pa Nhia Thao">
-    <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML.">
-    <title>Contact</title>
+    <meta name="description" content="A research Project on JavaScript">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>JavaScript</title>
     <link rel="icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
@@ -37,7 +39,7 @@
             <h2>About Me</h2>
             <article id="aboutMe">
                 <h3>Student & Insurance Agent </h3>
-                <img src="img/girl.png" alt="a picture of a girl"  loading="eager">
+                <img id="meImage" src="img/girl.png" alt="a picture of a girl"  loading="eager">
                 <p>I'm a student learning how to code and, by day, I'm an insurance agent. I'm on a mission to switch gears and become a web developer, bringing together my problem-solving skills and love for building cool stuff online!</p>
                 <p>I decided to explore JavaScript for my project and research because it's the key ingredient that makes websites do interesting and dynamic things, and I want to understand how it all works.</p>
             </article>
@@ -71,7 +73,7 @@
                                 pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
                         </p>
                         
-                        <fieldset>
+                        <fieldset id="contactArea">
                             <legend>Write to Me</legend>
                         <label for="message">Your Message:</label>
                         <br>
