@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Pa Nhia Thao">
+        <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML.">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Modern JS</title>
+        <link rel="icon" href="html5.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+    <body>
+        <header>
+            <h1>ES6</h1>
+
+            <nav aria-labelledby="navigation">
+                <h2 id="navigation">Navagation Bar</h2>            
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="dom.html">DOM</a>
+                    </li>
+                    <li>
+                        <a href="asynchronous.html">Asynchronous</a>
+                    </li>
+                    <li>
+                        <a href="modernjs.html">ES6</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="es6-one">
+                <h2>Modern JavaScript</h2>
+                <article>
+                    <h3>What is ES?</h3>   
+                    <p>ES stands for ECMAScript, scripting language specification for JavaScript, a programming language, is an implementation of ECMAScript specifications</p>
+                    <p>ES6 stands for ECMAScript 6 which was publish in 2015 also known as ECMAScript 2015 (ES6) which inroduced new features to JavaScript. </p>
+                   
+                    <figure title="Plant Earth's wireless internet connections.">
+                        <img src="img/internet.png" alt="planet earth with wireless connection" style="width: 400px; height: 400px" loading="eager">
+                        <figcaption>Image gernerated  by Craiyon.com </figcaption>
+                    </figure>   
+                </article>
+        
+              
+    
+                <article>
+                    <h3>Destructuring Assignment in ES6</h3>
+                    
+                    <ol class="es6-li-two">
+                        <li><strong>Array Destructuring:</strong><p> Unpack values from arrays into distinct variables.</p></li>
+                        <li><strong>Object Destructuring:</strong><p> Extract values from objects into variables with the same property names.</p></li>
+                        <li><strong>Default Values:</strong><p> Set default values during the destructuring process.</p></li>
+                        <li><strong>Rest Syntax:</strong><p> Gather remaining elements into a new array using the rest syntax.</p></li>
+                        <li><strong>Nested Destructuring:</strong><p> Destructure nested structures, such as objects inside arrays or vice versa.</p></li>
+                        <li><strong>Parameter Destructuring:</strong><p> Apply destructuring directly to function parameters for cleaner function signatures.</p></li>
+                        <li><strong>Alias:</strong><p> Assign the extracted values to variables with different names.</p></li>
+                    </ol>
+                </article>
+           
+
+            
+                <h2>Want to learn more after JavaScript?</h2>
+                <article id="ytranscript">
+                    <h3>Transcript Language</h3>
+                    <p><a href="typescript.html">Why Learn Transcript Next?</a></p>
+                </article>
+                <article>
+                    <h3>ES6 includes:</h3>
+                    <ul class="es6-li-one">
+                        <li>ECMAScript 2015
+                        </li>
+                        <li>ECMAScript 2016
+                        </li>
+                        <li>ECMAScript 2017
+                        </li>
+                        <li>ECMAScript 2018
+                        </li>
+                        <li>ECMAScript 2019
+                        </li>
+                        <li>ECMAScript 2020
+                        </li>
+                    </ul>
+                </article>
+            </section>
+
+            <section class="es6-two">
+                <h2>Two ES6 Features</h2>
+                <article>
+                    <h3>Arrow Functions and Template Literals</h3>
+                    <aside>
+                        <h3>Arrow Functions</h3>
+                        <details>
+                            <summary>Details</summary>
+                            <p>Arrow functions provide a concise syntax for writing functions. They have a shorter syntax compared to traditional function expressions and share the same lexical `this` as their surrounding code.</p>
+                            <p>Example:</p>
+                            <pre>
+                                
+                                    const add = (a, b) => a + b;
+
+                                    console.log(add(2, 3)); // Outputs 5
+                                
+                            </pre>
+                        </details>
+                    </aside>
+        
+                    <aside>
+                        <h3>Template Literals</h3>
+                        <details>
+                            <summary>Details</summary>
+                            <p>Template literals are string literals allowing embedded expressions. They make it easier to create dynamic strings with variables or expressions by using backticks (`) instead of quotes.</p>
+                            <p>Example:</p>
+                            <pre>
+                                
+                                    const name = 'World';
+
+            
+                                    const greeting = `Hello, ${name}!`;
+                                    console.log(greeting); // Outputs "Hello, World!"
+                                
+                            </pre>
+                        </details>
+                    </aside>
+                </article>
+            </section>
+
+            <section>
+                <h2>Table of ES6 Features</h2>
+                <article>
+                    <h3>Eight ES6 Features</h3>
+                    <table class="es6-table">
+                        <tr>
+                            <th>Feature</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>let and const</td>
+                            <td>Block-scoped variable declarations. `let` allows reassignment, while `const` is for constants.</td>
+                        </tr>
+                        <tr>
+                            <td>Arrow Functions</td>
+                            <td>Concise syntax for writing functions, with an implicit return for one-liners.</td>
+                        </tr>
+                        <tr>
+                            <td>Template Literals</td>
+                            <td>String literals with embedded expressions using backticks (`) for easier string formatting.</td>
+                        </tr>
+                        <tr>
+                            <td>Spread and Rest Operators</td>
+                            <td>Spread operator (...) for array and object manipulation, while rest operator (...) gathers elements into an array.</td>
+                        </tr>
+                        <tr>
+                            <td>Destructuring Assignment</td>
+                            <td>Extract values from arrays or properties from objects into distinct variables.</td>
+                        </tr>
+                        <tr>
+                            <td>Classes</td>
+                            <td>Object-oriented programming with class syntax for constructor functions and inheritance.</td>
+                        </tr>
+                        <tr>
+                            <td>Modules</td>
+                            <td>ES6 introduced a native module system to organize and structure code.</td>
+                        </tr>
+                    </table>
+                </article>
+            </section>
+        </main>
+
+        <hr>
+
+        <footer>
+            <a class="top" href="#">Back to Top</a>
+            <p>Content & images generated by <a href="https://chat.openai.com/c/5ec093b3-8814-485d-b439-5f57fe2f1db3">ChatGPT</a>, <a href="https://bard.google.com/chat/5736ad8bff35eaf5">Bard</a>, <a href="https://deepai.com">Deep AI</a>, & <a href="https://craiyon.com">Craiyon</a> </p>
+            <a href="site.html">Sitemap</a>
+        </footer>
+    </body>
+</html>
