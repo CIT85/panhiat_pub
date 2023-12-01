@@ -403,7 +403,7 @@ code  {
 /* typescript css file */
 
 #mainContainer {
-    border: 4px dash red;
+   
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -468,11 +468,11 @@ code  {
 
 /* contact inputs */
 
+
 #contact legend, #contact label, #contact input, #contact textarea, #contact button {
-    font-size: 1.2em;
+    font-size: 1.2em;                   
     padding: 5px;
     color:#6b705c;
-    font-size: bold;
 
 }
 
@@ -559,8 +559,8 @@ code  {
     }
 
     footer {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         font-size: 15px;
     }
 
@@ -595,6 +595,8 @@ code  {
     height: 30vw;
     font-size:.8em;
   }
+
+  /* contact css file */
 
   #mainContainer {
     display: flex;
