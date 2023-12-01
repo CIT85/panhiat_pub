@@ -425,6 +425,12 @@ code  {
 
 /* react css styling */
 
+.reactContainer article:nth-child(2) {
+    background-image: url(img/shape.png);
+    background-size: cover;
+    color:#f9f9f9
+}   
+
 #reactItem2 {
     border: 5px solid #DDBEA9;
     border-radius: 3%;
@@ -668,22 +674,6 @@ code  {
     }
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
