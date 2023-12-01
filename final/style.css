@@ -444,18 +444,22 @@ code  {
 
 /* contact */
 
-/* #aboutMe {
-    width: 100%;
-    height: auto;
-} */
+#aboutMe {
+    width: 95vw;
+    height: 50vw;
+}
+
+#message {
+    width : 90%;
+    height : auto;
+}
 
 
-
-
-
-#aboutMe img {
+#meImage {
     width: 35vw;
     height: auto;
+    float: left;
+    margin-right: 15px;
     
 
 }
@@ -497,6 +501,22 @@ code  {
     #pink {
         width:28vw;
     }
+
+    /* contact */
+
+    #aboutMe {
+        width: 92vw;
+        height: 60vh;
+    }
+
+    #meImage {
+
+        min-width: 50%;
+        min-height: auto;
+        padding-right: 20px;
+    }
+
+   
    
     
 }
@@ -507,10 +527,29 @@ code  {
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
  
    /* site css style */
-   .color article {
-    font-size: 1em;
-   } 
+    .color article {
+        font-size: 1em;
+    } 
 
+    nav {
+        background: yellow;
+    }
+
+   /* contact */
+
+    .contactContainer {
+        font-size: 1.2em;
+    }
+
+
+    #aboutMe {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* #meImage {
+        width: 20%;
+    } */
 
 
 }
@@ -526,6 +565,13 @@ code  {
         width: 25vw;
         height: 25vw;
         font-size: 1em;
+    }
+
+    /* contact */
+    #aboutMe {
+        width: 100%;
+        height: 100%;
+
     }
    
 }
@@ -549,6 +595,13 @@ code  {
         background-color: hotpink;
     }
 
+    #aboutMe {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    
     footer {
         /* display: flex;
         flex-direction: column; */
@@ -593,6 +646,8 @@ code  {
     display: flex;
     flex-direction: column;
   }
+
+ 
   
 /* contact style css */
 
@@ -733,7 +788,11 @@ code  {
 
     /* contact */
 
- 
+    #aboutMe {
+        width: 100%;
+        height: 100%;
+
+    }
     
     #contactArea textarea {
 
