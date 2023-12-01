@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <h1>React JS</h1>
+        <h1>Contact</h1>
         <nav aria-labelledby="navigation">
             <h2 id="navigation">Navagation Bar</h2>            
             <ul>
@@ -32,15 +32,18 @@
         </nav>
     </header>
 
-    <main>
+    <main class="contactContainer">
         <section>
             <h2>About Me</h2>
             <article id="aboutMe">
                 <h3>Student & Insurance Agent </h3>
-                <img src="img/girl.png" alt="a picture of a girl" style="width: 400px; height: 400px" loading="eager">
+                <img src="img/girl.png" alt="a picture of a girl"  loading="eager">
                 <p>I'm a student learning how to code and, by day, I'm an insurance agent. I'm on a mission to switch gears and become a web developer, bringing together my problem-solving skills and love for building cool stuff online!</p>
                 <p>I decided to explore JavaScript for my project and research because it's the key ingredient that makes websites do interesting and dynamic things, and I want to understand how it all works.</p>
             </article>
+        </section>
+
+        <section>
             <article id="contact">
                 <h3>Contact Me</h3>
                 <p>I'd really like to hear from you!</p>
@@ -74,9 +77,8 @@
                         </p>
                        
                     </fieldset>
-                    <br>
                     
-                 
+                    <br>
                     <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
                     <button type="reset">Reset</button>
                 </form>

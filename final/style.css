@@ -449,6 +449,50 @@ code  {
     list-style-type: circle;
 }
 
+
+/* contact */
+
+#aboutMe {
+    width: 100%;
+    height: auto;
+}
+
+#aboutMe img {
+    width: 40vw;
+    height: auto;
+    margin-bottom: 1em;
+    float: left;
+    padding-right: 20px;
+
+}
+
+/* contact inputs */
+
+#contact legend, #contact label, #contact input, #contact textarea, #contact button {
+    font-size: 1.2em;
+    padding: 5px;
+    color:#6b705c;
+    font-size: bold;
+
+}
+
+#contact input, #contact textarea, #contact button {
+    background-color: #ffe8d6;
+}
+
+
+#contact textarea {
+    width: 100%;
+    height: 15%; 
+
+}
+
+#contact button:hover {
+    color:#FFE8D6;
+    background-color:#1e293b;
+    margin: 3px;
+}
+
 /* || 1. EXTRA LARGE & TVS (1201px) */
 
     /* completed */
@@ -692,6 +736,29 @@ code  {
         margin: 0px;
         height: auto;
     }
+
+    /* contact */
+
+    #aboutMe  {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        float: none;
+
+        /* width: 300px;
+        height: 300px; */
+    }
+
+    #aboutMe img {
+        width: 200vw;
+        height: 200vh;
+    }
+
+
+
 }
 
 
