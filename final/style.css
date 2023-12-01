@@ -497,6 +497,10 @@ code  {
         font-size: 2.2em;
     }
 
+    nav {
+        padding: 10px;
+    }
+
     /*site */
     #pink {
         width:28vw;
@@ -506,7 +510,7 @@ code  {
 
     #aboutMe {
         width: 92vw;
-        height: 60vh;
+        height: 50%;
     }
 
     #meImage {
@@ -526,14 +530,17 @@ code  {
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
  
+
+    body {
+        font-size: 2em;
+        background: yellow;
+    }
    /* site css style */
     .color article {
         font-size: 1em;
     } 
 
-    nav {
-        background: yellow;
-    }
+   
 
    /* contact */
 
@@ -544,7 +551,7 @@ code  {
 
     #aboutMe {
         width: 100%;
-        height: 100%;
+        height: 50%;
     }
 
     /* #meImage {
@@ -560,6 +567,12 @@ code  {
 /* completed */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     
+    body {
+        font-size: 2em;
+    }
+    header {
+        padding: 10px;
+    }
     /* site */
     .color article {
         width: 25vw;
@@ -581,9 +594,7 @@ code  {
 /* complete */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
-    body {
-        
-    }
+    
 
     header {
         display: flex;
@@ -591,12 +602,12 @@ code  {
     }
 
     nav {
-        font-size: 16px;
+        font-size: 1.2em;
         background-color: hotpink;
     }
 
     #aboutMe {
-        width: 100%;
+        width: 95%;
         height: 100%;
 
     }
